@@ -5,3 +5,18 @@
 *.tar.gz
 train
 web/ckpts
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Generated outputs
+generated_audio/
+results/

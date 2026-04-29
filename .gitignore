@@ -1,1 +1,33 @@
 *.wav
+
+# Large checkpoint files - armazenar no Google Drive
+wavegan-master/train_drone/*.data-*
+wavegan-master/train_drone/*.meta
+wavegan-master/train_drone/*.index
+wavegan-master/train_drone/events.out.*
+wavegan-master/train_drone/checkpoint
+wavegan-master/train_drone/graph.pbtxt
+
+# Python virtual environments
+.venv/
+venv/
+wavegan-env/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated outputs
+generated_audio/
+results/
+
+*.zip
